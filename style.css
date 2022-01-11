@@ -1,0 +1,87 @@
+.leftSide{
+    width: 500px;
+    margin-left: 125px;
+    margin-top: 50;
+    background: #106DBD;
+    overflow: hidden;
+}
+
+.leftSide .leftBGImage{
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.leftSide headText{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.leftSide loremIspum{
+  font-family: 'Cabin', sans-serif;
+}
+
+
+.rightSide{
+    width: 500px;
+    margin-left: 626px;
+    margin-top: -600px;
+    background-color: white;
+    padding: 60px;
+}
+
+.rightSide .loginHeadText{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+}
+
+.rightSide .loginBellowHeadText{
+  font-family: 'Cabin', sans-serif;
+  margin-left: 170px;
+  margin-top: -15px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    box-shadow: 2.5px 2.5px 2px #E8E0DE;
+    border-radius: 5px;
+  }
+
+button {
+    background-color: #106DBD;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+.container .thingsNeedToBeTogether {
+  margin-top: 10px;
+}
+
+.container .thingsNeedToBeTogether .forgetPasswdText{
+  margin-left: 352px;
+  margin-top: -35px;
+}
+
+.container .newAccount{
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 47px;
+}
+  
+
+  
